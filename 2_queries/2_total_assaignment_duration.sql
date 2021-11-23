@@ -3,4 +3,4 @@ FROM assignment_submissions
 JOIN students ON students.id = student_id
 JOIN cohorts ON cohorts.id = cohort_id
 WHERE cohorts.name = 'FEB12';
--- man im bad at databases :D
+-- man im bad at databases XD
