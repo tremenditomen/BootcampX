@@ -1,4 +1,5 @@
 
+-- busy day
 SELECT day, count(assignments.*) as total_assignments
 FROM assignments
 GROUP BY day
