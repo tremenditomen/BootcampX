@@ -1,3 +1,4 @@
+-- teachers that assisted
 SELECT DISTINCT  teachers.name as teacher, cohorts.name as cohort
 FROM cohorts
 JOIN students ON cohorts.id = cohort_id

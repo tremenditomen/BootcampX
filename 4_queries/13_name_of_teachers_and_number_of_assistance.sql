@@ -1,3 +1,4 @@
+-- name of teachers and number of assistacne
 SELECT DISTINCT teachers.name as teacher, cohorts.name as cohort, count(assistance_requests.*) as total_assistances
 FROM cohorts
 JOIN students ON cohorts.id = cohort_id
